@@ -31,7 +31,7 @@ import java.util.zip.ZipFile;
 public class CurseForgeIntegration extends Integration
 {
     private static final String CF_API_URL = "https://api.curseforge.com";
-    private static final String CF_API_KEY = "JDJhJDEwJHBFZjhacXFwWE4zbVdtLm5aZ2pBMC5kdm9ibnhlV3hQZWZma2Q5ZEhCRWFid2VaUWh2cUtpJDJhJ";
+    private static final String CF_API_KEY = "$2a$10$DJiIWDCef9nkUl0fchY9eecGQunflMcS/TxFMn5Ng68cX5KpGOaEC";
     private static final String MOD_FILE_ENDPOINT = "/v1/mods/{modId}/files/{fileId}";
 
     private boolean manifestChanged = false;
